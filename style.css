@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(133, 129, 129);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 6;
+}
+
+.left-section {
+    padding: 3vw;
+}
+
+.left-section > div {
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 700;    
+    font-size: 2.5vw;
+
+}
+
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row;
+}
+
+.middle-section> div {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    padding: 1vw;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+.right-section > .insta-icon {
+    padding-top: 1.0vw;
+    width: 7vw;
+
+}
+
+.right-section > .facebook-icon {
+    padding-right: 1.8vw;
+    width: 4vw;
+}
+
+.right-section > .whatsapp-icon {
+    width: 6vw;
+}
+
+.image-highlight {
+    margin-top: 8.5vw;
+}
+
+.content {
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    top: 25%;
+    left: 12%;
+    right: 20%;
+    width: 50%;
+}
+
+.content img {
+    width: 60%;
+    height: 5%;
+    padding: 1.5vw 0vw;
+}
+
+.content span {
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.5vw;
+}
+
+.content p {
+    font-family: 'red';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vw;
+    letter-spacing: 0.09em;
+}
+
+.about-us .about-us-heading {
+    align-items: center;
+    font-family: 'Quattrocento';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vw;
+    padding-top: 6vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+
+.border-img {
+    width: 30vw;
+    height: 4vh;
+}
+
+.about-us .left-section-details > .border-img {
+    width: 31.5vw;
+    height: 3vh;
+}
+
+.about-us .details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.about-us .description p{
+    width: 40vw;
+    font-family: 'Ruda';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    /* or 160% */
+    padding-left: 10vw;
+    letter-spacing: 0.09em;
+}
+
+.about-us .dough-img {
+    width: 30vw;
+    padding-left: 7vw;
+}
+
+.about-us .left-section-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -5vw;
+    padding-left: 2vw;
+}
